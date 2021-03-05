@@ -14,9 +14,19 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
+  /*text-align: center;*/
   margin: 0;
 }
+
+@media(max-width: 576px){
+  .app-title {
+    text-align: center;
+  }
+  .about-app {
+    text-align: center;
+  }
+}
+
 
 h1 {
   font-size: 80px !important;
@@ -36,7 +46,7 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .navigation-links {
@@ -100,4 +110,12 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+@media(max-width: 576px){
+  .apps-links {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
